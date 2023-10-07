@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import Leaflet from 'leaflet'
+import 'leaflet/dist/leaflet.css'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
@@ -8,19 +10,24 @@ import './index.scss'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  const form = useRef()
 
   useEffect(() => {
-    return setTimeout(() => {
+    setTimeout(() => {
       setLetterClass('text-animate-hover')
     }, 3000)
   }, [])
 
+  const form = useRef()
   const sendEmail = (e) => {
     e.preventDefault()
 
     emailjs
-      .sendForm('gmail', 'template_YeJhZkgb', form.current, 'your-token')
+      .sendForm(
+        'service_portfolio',
+        'template_328f9ko',
+        form.current,
+        '1lt9hjhO-7IU3zs7D'
+      )
       .then(
         () => {
           alert('Message successfully sent!')
@@ -85,20 +92,21 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Slobodan Gajić,
+          Ahmed Amir,
           <br />
-          Serbia,
+          3, Al Forat, Sudan Street <br />
+          Cairo, Egypt <br />
           <br />
-          Branka RadiČevića 19, 22000 <br />
-          Sremska Mitrovica <br />
-          <br />
-          <span>freelancerslobodan@gmail.com</span>
+          <span>ahmad.abdulkhalig@gmail.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[44.96366, 19.61045]} zoom={13}>
+          <MapContainer
+            center={[30.048294082032342, 31.193017342328933]}
+            zoom={13}
+          >
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[44.96366, 19.61045]}>
-              <Popup>Sloba lives here, come over for a cup of coffee :)</Popup>
+            <Marker position={[30.048294082032342, 31.193017342328933]}>
+              <Popup>Ahmed lives here, come over for a cup of coffee :)</Popup>
             </Marker>
           </MapContainer>
         </div>
