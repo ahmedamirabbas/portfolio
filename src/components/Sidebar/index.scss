@@ -46,7 +46,7 @@
       }
 
       &:hover {
-        color: #ffd700;
+        color: #D8A729;
 
         svg {
           opacity: 0;
@@ -96,9 +96,15 @@
       }
     }
 
+    a.skills-link {
+      &:after {
+        content: 'SKILLS';
+      }
+    }
+
     a.active {
       svg {
-        color: #ffd700;
+        color: #D8A729;
       }
     }
   }
@@ -124,7 +130,7 @@
 
       &:hover {
         .anchor-icon {
-          color: #ffd700;
+          color: #D8A729;
         }
       }
     }

@@ -73,7 +73,7 @@ const Portfolio = () => {
               />
               <div className="content">
                 <p className="title">Games Hub</p>
-                <h4 className="description">React</h4>
+                <h4 className="description">React, Chakra UI</h4>
                 <button
                   className="btn"
                   onClick={() =>
