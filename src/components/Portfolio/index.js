@@ -77,7 +77,7 @@ const Portfolio = () => {
                 <button
                   className="btn"
                   onClick={() =>
-                    window.open('https://ahmedamirabbas.github.io/')
+                    window.open('https://games-hub-jet.vercel.app/')
                   }
                 >
                   View

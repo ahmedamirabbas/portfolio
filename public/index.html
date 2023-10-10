@@ -25,6 +25,14 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Ahmed Amir</title>
+    <ifModule mod_rewrite.c>
+      RewriteEngine On
+      RewriteCond %{REQUEST_FILENAME} !-f
+      RewriteCond %{REQUEST_FILENAME} !-d
+      RewriteCond %{REQUEST_URI} !index
+      RewriteCond %{REQUEST_URI} !.*\.(css¦js|html|png)
+      RewriteRule (.*) index.html [L]
+     </ifModule>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -39,12 +47,12 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-
+    
     <!--Emailjs-->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript">
       (function (){
-        email.js.init('1lt9hjhO-7IU3zs7D')})()
+        emailjs.init('1lt9hjhO-7IU3zs7D')})()
     </script>
 
   </body>

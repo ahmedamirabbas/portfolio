@@ -71,17 +71,29 @@ const Skills = () => {
           </p>
           <p className="prevent-select">
             Visit my{' '}
-            <a href="https://www.linkedin.com/in/ahmedamirabbas/"> LinkedIn</a>{' '}
+            <a
+              href="https://www.linkedin.com/in/ahmedamirabbas/"
+              target="blank"
+            >
+              {' '}
+              LinkedIn
+            </a>{' '}
             profile for more details. Also, you can check my CV on this{' '}
-            <a href="https://www.linkedin.com/in/ahmedamirabbas/overlay/1635526288947/single-media-viewer/?type=DOCUMENT&profileId=ACoAABmQiQoBw2CVg0kxVx8LedDfwOo27JNq6Yc">
+            <a
+              href="https://www.linkedin.com/in/ahmedamirabbas/overlay/1635526288947/single-media-viewer/?type=DOCUMENT&profileId=ACoAABmQiQoBw2CVg0kxVx8LedDfwOo27JNq6Yc"
+              target="blank"
+            >
               link
             </a>
             , or feel free to peek at some of my blog{' '}
-            <a href="https://blog.ahmedamir.dev">posts</a>.
+            <a href="https://blog.ahmedamir.dev" target="blank">
+              posts
+            </a>
+            .
           </p>
         </div>
         <div className="text-shpere">
-          <span className="tagcloud"></span>
+          <div className="tagcloud"></div>
         </div>
       </div>
       <Loader type="pacman" />
