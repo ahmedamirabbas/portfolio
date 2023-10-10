@@ -80,7 +80,7 @@ const Skills = () => {
             </a>{' '}
             profile for more details. Also, you can check my CV on this{' '}
             <a
-              href="https://www.linkedin.com/in/ahmedamirabbas/overlay/1635526288947/single-media-viewer/?type=DOCUMENT&profileId=ACoAABmQiQoBw2CVg0kxVx8LedDfwOo27JNq6Yc"
+              href="https://www.linkedin.com/in/ahmedamirabbas/overlay/1635544112468/single-media-viewer/?profileId=ACoAABmQiQoBw2CVg0kxVx8LedDfwOo27JNq6Yc"
               target="blank"
             >
               link
