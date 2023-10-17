@@ -1,41 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&display=swap');
 
-
-.text-shpere {
-  position: absolute;
-  top: 0;
-  margin-left: 50%;
+.stage-cube-cont {
   width: 50%;
-  right: 0%;
-  left: auto;
   height: 100%;
-  margin: auto;
-  z-index: 2;
-}
-
-.tagcloud {
-    display: inline-block;
-    top: 0;
-    left: 0;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    letter-spacing: 0.0625em;
-    font-size: 1.3em;
-}
-
-/* Change color of each text in sphere on hover   */
-.tagcloud--item {
-    color: white;
-    text-transform: uppercase;
-}
-
-.tagcloud--item:hover {
-    color:#D8A729;
+  top: 0;
+  padding-top:0;
+  margin-left: 0;
+  position: absolute;
+  right: 0;
+  overflow: hidden;
 }
 
 .yellow{
   color: #D8A729;
-
 }
 
 a{
@@ -46,7 +23,7 @@ a{
   }
 }
 
-@media screen and (max-width: 1200px){
+/*@media screen and (max-width: 1200px){
   
   .text-shpere{
     position: relative;
@@ -60,4 +37,4 @@ a{
     align-items: center;
   }
 
-}
+}*/

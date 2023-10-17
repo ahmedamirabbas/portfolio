@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
-import TagCloud from 'TagCloud'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
+import Sphere from './Sphere/index'
 
 const Skills = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -11,36 +11,6 @@ const Skills = () => {
     setTimeout(() => {
       setLetterClass('text-animate-hover')
     }, 3000)
-  }, [])
-
-  useEffect(() => {
-    return () => {
-      const container = '.tagcloud'
-      const texts = [
-        'HTML',
-        'CSS',
-        'SASS',
-        'JavaScript',
-        'React',
-        'TypeScript',
-        'MongoDB',
-        'NodeJS',
-        'SQL',
-        'Jquery',
-        'ES6',
-        'GIT',
-        'GITHUB',
-      ]
-
-      const options = {
-        radius: 300,
-        maxSpeed: 'fast',
-        initSpeed: 'fast',
-        keep: true,
-      }
-
-      TagCloud(container, texts, options)
-    }
   }, [])
 
   return (
@@ -92,8 +62,8 @@ const Skills = () => {
             .
           </p>
         </div>
-        <div className="text-shpere">
-          <div className="tagcloud"></div>
+        <div className="stage-cube-cont">
+          <Sphere />
         </div>
       </div>
       <Loader type="pacman" />
