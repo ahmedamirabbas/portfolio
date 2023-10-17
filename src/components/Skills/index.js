@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
-import Sphere from './Sphere/index'
+import Video from '../Video/index'
+import GifComponent from '../Gif/index'
 
 const Skills = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -62,8 +63,13 @@ const Skills = () => {
             .
           </p>
         </div>
+        <div className="bg-vid">
+          <Video />
+        </div>
         <div className="stage-cube-cont">
-          <Sphere />
+          <div className="gif">
+            <GifComponent />
+          </div>
         </div>
       </div>
       <Loader type="pacman" />
