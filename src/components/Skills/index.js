@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
-import Video from '../Video/index'
+import RiverVid from '../RiverVideo/index'
 import GifComponent from '../Gif/index'
 
 const Skills = () => {
@@ -64,7 +64,7 @@ const Skills = () => {
           </p>
         </div>
         <div className="bg-vid">
-          <Video />
+          <RiverVid />
         </div>
         <div className="stage-cube-cont">
           <div className="gif">

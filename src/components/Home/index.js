@@ -5,6 +5,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/logopreload.png'
 import Logo from './Logo'
 import './index.scss'
+import NightSkyVideo from '../NightSkyVideo'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -66,7 +67,9 @@ const Home = () => {
         </div>
         <Logo />
       </div>
-
+      <div className="bg-vid">
+        <NightSkyVideo />
+      </div>
       <Loader type="pacman" />
     </>
   )
