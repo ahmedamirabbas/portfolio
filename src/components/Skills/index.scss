@@ -41,11 +41,6 @@ a{
 
 @media screen and (max-width: 1200px) {
   #river-vid {
-    width: 100%;
-    top: 55%;
-    position: absolute;
-    right: 0;
-    overflow: hidden;
-    text-align: center;
+    display: none;
   }
 }
