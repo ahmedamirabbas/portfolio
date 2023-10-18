@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&display=swap');
+
+#river-vid{
+  width: 100%;
+  top: -50px;
+  position: absolute;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.stage-cube-cont {
+  width: 50%;
+  height: 100%;
+  top: 0;
+  padding-top: 15%;
+  margin-left: 0;
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.text-zone{
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+  padding: 20px;
+}
+
+.yellow{
+  color: #D8A729;
+}
+
+a{
+  color: #D8A729;
+
+  &:hover{
+    color: white;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #river-vid {
+    width: 100%;
+    top: 55%;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+    text-align: center;
+  }
+}
