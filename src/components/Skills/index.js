@@ -63,7 +63,7 @@ const Skills = () => {
             .
           </p>
         </div>
-        <div className="bg-vid">
+        <div id="river-vid">
           <RiverVid />
         </div>
         <div className="stage-cube-cont">

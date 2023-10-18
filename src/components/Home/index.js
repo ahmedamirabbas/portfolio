@@ -65,10 +65,10 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
+        <div id="sky-vid">
+          <NightSkyVideo id="video" />
+        </div>
         <Logo />
-      </div>
-      <div className="bg-vid">
-        <NightSkyVideo />
       </div>
       <Loader type="pacman" />
     </>
