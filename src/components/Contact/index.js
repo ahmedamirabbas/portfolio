@@ -51,9 +51,9 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in freelance opportunities - especially on ambitious
+            I am interested in freelance opportunities - especially in ambitious
             or large projects. However, if you have any other requests or
-            questions, don't hesitate to contact me using below form either.
+            questions, don't hesitate to contact me using the below form either.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
@@ -97,7 +97,7 @@ const Contact = () => {
           3, Al Forat, Sudan Street <br />
           Cairo, Egypt <br />
           <br />
-          <span>ahmad.abdulkhalig@gmail.com</span>
+          <span>ahmed@ahmedamir.dev</span>
         </div>
         <div className="map-wrap">
           <MapContainer
