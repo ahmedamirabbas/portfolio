@@ -2,6 +2,8 @@
 
 [Click here to see it Live](https://ahmedamir.dev)
 
+![Website screenshot](https://ibb.co/drrDxTj)
+
 - This project is made using React.
 
 ## Frameworks and libraries used
