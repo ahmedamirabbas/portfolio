@@ -2,7 +2,7 @@
 
 [Click here to see it Live](https://ahmedamir.dev)
 
-![Website screenshot](https://ibb.co/drrDxTj)
+![Website screenshot](https://i.ibb.co/6mmFLMr/home.png)
 
 - This project is made using React.
 
