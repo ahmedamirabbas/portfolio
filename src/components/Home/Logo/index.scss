@@ -1,0 +1,43 @@
+.logo-container {
+  z-index: 0;
+  width: 400px;
+  height: 600px;
+  position: absolute;
+  transform: translate(0,-600px);
+  opacity: 1;
+  top: 0;
+  right: 15%;
+  bottom: 0;
+  left: auto;
+  margin: auto;
+  animation: logoAnim 2s ease-out 2s 1 normal forwards;
+
+  .solid-logo {
+    position: absolute;
+    top: 20%;
+    right: auto;
+    bottom: auto;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    transform: rotateZ(10deg) !important;
+    z-index: 1;
+
+  }
+}
+
+@keyframes logoAnim{
+  from{
+    transform: translate(0,-600px);
+    transform:  rotateY(-180deg);
+    opacity:  0;
+  }
+  50%{
+    transform: translate(0, -300px);
+  }
+  to{
+    transform: translate(0,0);
+    transform:  rotateY(720deg);
+    opacity:  1;
+  }
+}
