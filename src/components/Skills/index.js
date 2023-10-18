@@ -66,7 +66,7 @@ const Skills = () => {
         <div id="river-vid">
           <RiverVid />
         </div>
-        <div className="stage-cube-cont">
+        <div className="gif-cont">
           <div className="gif">
             <GifComponent />
           </div>
