@@ -29,7 +29,7 @@ const Skills = () => {
             Expert in front-end development including technologies like{' '}
             <span className="yellow">
               HTML5, CSS3, JavaScript, jQuery, React, TypeScript, Bootstrap,
-              Sass, Git
+              Sass, Git, MERN
             </span>
             , etc.
           </p>
@@ -51,7 +51,7 @@ const Skills = () => {
             </a>{' '}
             profile for more details. Also, you can check my CV on this{' '}
             <a
-              href="https://www.linkedin.com/in/ahmedamirabbas/overlay/1635544112468/single-media-viewer/?profileId=ACoAABmQiQoBw2CVg0kxVx8LedDfwOo27JNq6Yc"
+              href="https://drive.google.com/file/d/1N4qMu0Gy3TpvP5D1n6O9yXiUIjV4HfOC/view?usp=sharing"
               target="blank"
             >
               link
