@@ -98,7 +98,7 @@ const Contact = () => {
           3, Al Forat, Sudan Street <br />
           Cairo, Egypt <br />
           <br />
-          <span>ahmed@ahmedamir.dev</span>
+          <span>contact@ahmedamir.dev</span>
         </div>
         <div className="map-wrap">
           <MapContainer
