@@ -51,7 +51,7 @@ const Skills = () => {
             </a>{' '}
             profile for more details. Also, you can check my CV on this{' '}
             <a
-              href="https://drive.google.com/file/d/1N4qMu0Gy3TpvP5D1n6O9yXiUIjV4HfOC/view?usp=sharing"
+              href="https://drive.google.com/file/d/1PRE2Xql-DDRU5Gyk6D3qziwyK_anHDJW/view?usp=sharing"
               target="blank"
             >
               link
