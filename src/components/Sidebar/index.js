@@ -106,7 +106,7 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://x.com/prince_hermit"
+            href="https://twitter.com/_ahmed_amir_"
             rel="noreferrer"
             target="_blank"
           >
