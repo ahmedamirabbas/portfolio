@@ -57,7 +57,7 @@ const Skills = () => {
               link
             </a>
             , or feel free to peek at some of my blog{' '}
-            <a href="https://blog.ahmedamir.dev" target="blank">
+            <a href="https://medium.com/@ahmad.abdulkhalig" target="blank">
               posts
             </a>
             .
