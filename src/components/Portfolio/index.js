@@ -137,7 +137,7 @@ const Portfolio = () => {
             </div>
             <div className="image-box" key={5}>
               <img
-                src="../src/assets/images/sumitup.jpg"
+                src="https://i.ibb.co/N31YWzH/sumitup.jpg"
                 className="portfolio-image"
                 alt="portfolio"
               />
