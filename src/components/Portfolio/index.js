@@ -137,6 +137,25 @@ const Portfolio = () => {
             </div>
             <div className="image-box" key={5}>
               <img
+                src="../src/assets/images/sumitup.jpg"
+                className="portfolio-image"
+                alt="portfolio"
+              />
+              <div className="content">
+                <p className="title">SumItUp</p>
+                <h4 className="description">React, RapidAPI, Tailwind</h4>
+                <button
+                  className="btn"
+                  onClick={() =>
+                    window.open('https://sumitup-eosin.vercel.app/')
+                  }
+                >
+                  View
+                </button>
+              </div>
+            </div>
+            <div className="image-box" key={6}>
+              <img
                 src="https://cdna.artstation.com/p/assets/images/images/067/975/408/small/ahmed-amir-abd-alkhalig-abbas-screen-shot-2023-10-07-at-15-07-34.jpg?1696681604"
                 className="portfolio-image"
                 alt="portfolio"
